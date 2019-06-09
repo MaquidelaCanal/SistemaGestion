@@ -13,7 +13,7 @@
 #define TIPOADMIN 1
 #define TIPONORMAL 0
 
-typedef struct
+typedef struct Usuario
 {
     int Id;
     int Tipo;
@@ -64,7 +64,7 @@ int cargaUnUsuario(Usuario usua[], int val)
     fflush(stdin);
     gets(usua[val].Nombre);
 
-    printf("\nContraseña.....................:");
+    printf("\nContraseï¿½a.....................:");
     fflush(stdin);
     gets(usua[val].Contra);
 
@@ -87,7 +87,7 @@ void mostrarUnUsuario(Usuario usuaAux[], int pos)
     printf("\n Activo: %d", usuaAux[pos].Activo);
     printf("\n Tipo: %d", usuaAux[pos].Tipo);
     printf("\n Nombre: %s", usuaAux[pos].Nombre);
-    printf("\n contraseña: %s", usuaAux[pos].Contra);
+    printf("\n contraseï¿½a: %s", usuaAux[pos].Contra);
     printf("\n____________________");
 }
 
@@ -141,7 +141,7 @@ void mostrarArchivoUsuarios(char arUsuarios[])
             printf("\n Activo: %d", usuaAux.Activo);
             printf("\n Tipo: %d", usuaAux.Tipo);
             printf("\n Nombre: %s", usuaAux.Nombre);
-            printf("\n contraseña: %s", usuaAux.Contra);
+            printf("\n contraseï¿½a: %s", usuaAux.Contra);
             printf("\n____________________");
         }
         fclose(archi);
