@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1561836834 source:c:\users\maqui\desktop\facultad\programación i y laboratorio i\funcionestpmaqui\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+
+1561941314 source:c:\users\maqui\desktop\facultad\programación i y laboratorio i\funciones maqui para git\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+
